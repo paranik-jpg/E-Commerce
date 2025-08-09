@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Tech2etc Ecommerce Tutorial</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="header">
+        <a href="#"><img src="logo.png" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a class="active" id="lg-bag" href="cart.html"><i class="fa fa-shopping-bag"></i></a></li>
+                <a id="close"><i class="fa fa-close"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa fa-shopping-bag"></i></a>
+            <i id="bar" class="fa fa-bars"></i>
+        </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+        <h2>#Let's_buy</h2>
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fa fa-close"></i></a></td>
+                    <td><img src="products/f1.jpg" alt=""></td>
+                    <td>Men Floral Print Shirt</td>
+                    <td>$78</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$78.00</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa fa-close"></i></a></td>
+                    <td><img src="products/f2.jpg" alt=""></td>
+                    <td>Men Floral Print Shirt</td>
+                    <td>$80</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$80.00</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa fa-close"></i></a></td>
+                    <td><img src="products/f3.jpg" alt=""></td>
+                    <td>Men Floral Print Shirt</td>
+                    <td>$60</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$60.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="enter your coupon">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+        <div id="subtotal">
+                <h3>Cart total</h3>
+                <table>
+                    <tr>
+                        <td>Card subtotal</td>
+                        <td>$335.00</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping</td>
+                        <td>$00.00</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Total</strong></td>
+                        <td><strong>$335.00</strong></td>
+                    </tr>
+                </table>
+                <button class="normal">Proceed to check out</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Adrress: </strong> Bandra Kurla Complex, North Avenue, Bandra (East), Mumbai</p>
+            <p><strong>Phone: </strong> +01 2222 365 /(+91) 01 2345 6789</p>
+            <p><strong>Hours: </strong> 10:00 - 18:00, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fa fa-facebook-square"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-pinterest"></i>
+                    <i class="fa fa-youtube-play"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a>About us</a>
+            <a>Delivery info.</a>
+            <a>Privacy Policy</a>
+            <a>Terms & Conditions</a>
+            <a>Contact us</a>
+        </div>
+        <div class="col">
+            <h4>My account</h4>
+            <a>Sign in</a>
+            <a>View cart</a>
+            <a>My wishlist</a>
+            <a>Track my order</a>
+            <a>Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install app</h4>
+            <p>From App store or Google Play store</p>
+            <div class="row">
+                <img src="pay/app.jpg" alt="">
+                <img src="pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways </p>
+            <img src="pay/pay.png" alt="">
+        </div>
+        <div class="copyright">
+            <p>&copy; Tech2etc - HTML CSS Ecommerce Template</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
